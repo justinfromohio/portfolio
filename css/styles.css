@@ -80,8 +80,8 @@ ul{
   color: rgb(154, 154, 154);
 }
 
-.header::after{
-  margin: 1em;
+hr {
+  margin: 1em .25em;
   height: .1em;
   display: block;
   background-color: rgb(211, 212, 211);
@@ -97,9 +97,8 @@ ul{
 
 .hero-image {
   max-width: 100%;
-  margin: 0 auto;
+  padding: 0 .5em;
   display: block;
-  background-color: red;
 }
 
 /*//Featured Work//---------------------------------*/

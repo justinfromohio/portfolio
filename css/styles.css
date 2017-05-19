@@ -37,11 +37,23 @@ ul{
 .container {
   max-width: 960px;
   margin: 0 auto;
-
-
 }
 
+.text-center {
+  text-align: center;
+}
 
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  width: 200px;
+  height: 150px;
+  margin: .7em 0 0 0;
+}
 /*//Page Elements//---------------------------------*/
 
 .header-logo{
@@ -90,6 +102,28 @@ ul{
   background-color: red;
 }
 
+/*//Featured Work//---------------------------------*/
+
+.featured-work {
+  margin: 2em 0 0 0;
+}
+
+.section-header {
+  font-weight: 300;
+  margin: 0 0 .5em .5em;
+  color: rgb(186, 186, 186);
+}
+
+.project-title {
+  font-weight: 500;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding: .5em 0;
+}
+
+.flex-item img {
+  max-width: 100%;
+}
 /*//Clearfix//---------------------------------*/
 .container::before, .container::after {
     content:"";

@@ -104,6 +104,7 @@ hr {
 }
 
 .section-header {
+  font-size: 2.5em;
   font-weight: 300;
   margin: 0 0 .5em .5em;
   color: rgb(186, 186, 186);
@@ -125,11 +126,20 @@ hr {
 }
 
 .work-card h3 {
-  font-size: 1.75em;
+  font-size: 3em;
   font-weight: 300;
-  padding: .75em 0 0 .5em;
 }
 
+.work-card a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: inherit;
+}
+
+.work-card a:hover {
+  transition: .5s;
+  color: pink;
+}
 /*//Clearfix//---------------------------------*/
 .container::before, .container::after {
     content:"";

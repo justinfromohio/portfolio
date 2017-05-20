@@ -44,15 +44,11 @@ ul{
 }
 
 .flex-container {
+  display: -webkit-flex;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-}
-
-.flex-item {
-  width: 200px;
-  height: 150px;
-  margin: .7em 0 0 0;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  flex: 1;
 }
 /*//Page Elements//---------------------------------*/
 
@@ -120,9 +116,20 @@ hr {
   padding: .5em 0;
 }
 
-.flex-item img {
+.work-card {
+  margin: .5em;
+}
+
+.work-card img {
   max-width: 100%;
 }
+
+.work-card h3 {
+  font-size: 1.75em;
+  font-weight: 300;
+  padding: .75em 0 0 .5em;
+}
+
 /*//Clearfix//---------------------------------*/
 .container::before, .container::after {
     content:"";

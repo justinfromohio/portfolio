@@ -62,7 +62,6 @@ ul{
   margin: 3.75em 1em 0 0;
   display: inline-block;
   float: right;
-
 }
 
 .header-title h1{
@@ -72,7 +71,7 @@ ul{
 
 .header-title h2 {
   font-size: 1.5em;
-  font-weight: 400;
+  font-weight: 300;
   color: rgb(154, 154, 154);
 }
 
@@ -104,7 +103,7 @@ hr {
 }
 
 .section-header {
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: 300;
   margin: 0 0 .5em .5em;
   color: rgb(186, 186, 186);
@@ -126,14 +125,15 @@ hr {
 }
 
 .work-card h3 {
-  font-size: 3em;
+  font-size: 1.5em;
   font-weight: 300;
+  margin: .5em 0 0 0;
+  padding: 0 0 .25em 0;
 }
 
 .work-card a {
-  font-size: 1.5em;
   text-decoration: none;
-  color: inherit;
+  color: rgb(208,208,208);
 }
 
 .work-card a:hover {

@@ -1,9 +1,6 @@
-@media (min-width: 751px){
-  .flex-container {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    flex-direction: row;;
-    flex: 1;
+@media screen (min-width: 751px) {
+  body {
+    background-color: yellow;
   }
+
 }

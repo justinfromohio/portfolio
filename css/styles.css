@@ -54,9 +54,12 @@ ul{
 .flex-container {
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  flex: 1;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  width: 80%;
+  background-color: red;
 }
 /*//Page Elements//---------------------------------*/
 

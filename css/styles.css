@@ -12,7 +12,6 @@ html{
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
 }
 
 body {
@@ -25,6 +24,7 @@ body {
   background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(252,247,252,1) 48%, rgba(236,240,231,1) 100%);
   background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(252,247,252,1) 48%, rgba(236,240,231,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ecf0e7', GradientType=0 );
+
 }
 
 h1,
@@ -35,15 +35,8 @@ h5{
   margin: 0;
 }
 
-ul{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-
 .container {
-  max-width: 960px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -51,13 +44,6 @@ ul{
   text-align: center;
 }
 
-.flex-container {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  flex: 1;
-}
 /*//Page Elements//---------------------------------*/
 
 .header-logo{
@@ -113,41 +99,43 @@ hr {
 .section-header {
   font-size: 2em;
   font-weight: 300;
-  margin: 0 0 .5em .5em;
+  margin: 0 0 .5em 0;
   color: rgb(186, 186, 186);
 }
 
-.project-title {
-  font-weight: 500;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  padding: .5em 0;
+.work-card {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.work-card {
-  margin: .5em;
+.work-card li {
+  border-radius: 5px;
+  background-color: red;
+  flex: 1 1 200px;
 }
 
 .work-card img {
   max-width: 100%;
+  border-radius:inherit;
 }
 
-.work-card-project-name {
-  font-size: 1.5em;
+.work-card h3 {
   font-weight: 300;
-  margin: .5em 0 0 0;
-  padding: 0 0 .25em 0;
+  text-transform: uppercase;
 }
 
-.work-card a {
-  text-decoration: none;
-  color: rgb(208,208,208);
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.work-card a:hover {
-  transition: .5s;
-  color: pink;
+.flex li {
+  flex: 1 1 200px;
+  margin: 10px;
 }
+
 /*//Clearfix//---------------------------------*/
 .container::before, .container::after {
     content:"";

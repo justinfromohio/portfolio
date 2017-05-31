@@ -54,12 +54,9 @@ ul{
 .flex-container {
   display: -webkit-flex;
   display: flex;
-  flex-wrap: wrap;
-}
-
-.flex-item {
-  width: 80%;
-  background-color: red;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  flex: 1;
 }
 /*//Page Elements//---------------------------------*/
 
@@ -135,7 +132,7 @@ hr {
   max-width: 100%;
 }
 
-.work-card h3 {
+.work-card-project-name {
   font-size: 1.5em;
   font-weight: 300;
   margin: .5em 0 0 0;

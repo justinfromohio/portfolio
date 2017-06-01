@@ -129,6 +129,8 @@ hr {
 .flex {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+
 }
 
 .flex li {

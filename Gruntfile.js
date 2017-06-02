@@ -5,30 +5,26 @@ module.exports = function(grunt) {
      myTask: {
         options: {
           engine: 'im',
-          newFilesOnly: "",
+          newFilesOnly: 1,
           sizes: [{
-            name: 'lg',
-            width: 1200,
+            name: '200',
+            width: 200,
             quality: 50
           },{
-            name: 'lg-2x',
-            width: 2400,
-            quality: 50
-          },{
-            name: 'md',
-            width: 800,
-            quality: 50
-          },{
-            name: 'md-2x',
-            width: 1600,
-            quality: 50
-          },{
-            name: 'sm',
+            name: '400',
             width: 400,
             quality: 50
           },{
-            name: 'sm-2x',
+            name: '800',
             width: 800,
+            quality: 50
+          },{
+            name: '1600',
+            width: 1600,
+            quality: 50
+          },{
+            name: '3200',
+            width: 3200,
             quality: 50
           }]
         },

@@ -38,6 +38,7 @@ h5{
 
 .flex-container {
   display: flex;
+  display: -webkit-flex;
   flex-wrap: wrap;
 }
 
@@ -100,17 +101,20 @@ hr {
 }
 
 .work-card {
-  background-color: red;
   text-align: center;
   margin: .5em;
   flex: 1 1 300px;
-  padding: 0 0 1em 0;
+  -webkit-flex: 1 1 300px;
 }
 
 .work-card img {
   max-width: 100%;
 }
 
+.project-title {
+  font-weight: 300;
+  padding: .5em 0;
+}
 
 
 /*//Clearfix//---------------------------------*/

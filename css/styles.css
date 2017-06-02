@@ -86,7 +86,6 @@ hr {
   max-width: 100%;
   padding: 0 .5em;
 }
-
 /*//Featured Work//---------------------------------*/
 
 .featured-work {
@@ -116,8 +115,22 @@ hr {
   padding: .5em 0;
 }
 
+.project-link {
+  text-decoration: none;
+  color:#b1b1b1;
+}
 
+.project-link:hover {
+  transition: .3s;
+  color:#fcb5ff;
+}
+
+.project-link:active {
+  transition: .3s;
+  color:#bad8e0;
+}
 /*//Clearfix//---------------------------------*/
+
 .container::before, .container::after {
     content:"";
     display:table;

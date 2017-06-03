@@ -67,7 +67,7 @@ h5{
   color: rgb(154, 154, 154);
 }
 
-hr {
+header::after {
   margin: 1em .25em;
   height: .1em;
   display: block;
